@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="css/style.css">
+    <title>FUNCTION</title>
+</head>
+<body>
+    <section>
+        <div class = "converter">
+            <h1> Tugas Function</h1>
+        </div>
+        <div class = "answer">
+            <input type ="text" id="buyer" class="input" placeholder="Nama">
+            <input type ="text" id="products" class="input" placeholder="Produk Belanja">
+            <input type ="button" id="details" class="input" value="Submit">
+        </div>
+        <script src="js/satu.js"></script>
+    </section>
+
+    <section>
+        <div class = "converter">       
+             <h1> Temperature Converter </h1>
+        </div>
+        <div class ="answer">
+            <input type="number" id="celsius" class="input" 
+            placeholder="celsius" oninput = "convertToFar()">
+
+            <input type="number" id="fahrenheit" class="input"
+             placeholder="fahrenheit" oninput = "convertToCel()">
+        </div>
+        <script src="js/dua.js"></script>
+    </section>
+
+    <section>
+        <div class = "converter">       
+            <h1> Menghitung umur kucing dalam usia manusia </h1>
+       </div>
+        <div class ="answer">
+        <input type="number" id="years" class="input" placeholder="umur kucing"/>
+        <input type="button" onclick="calculateCatAge(event)" value="Submit" class="input">
+        </div>
+        <script src="js/tiga.js"></script>
+    </section>
+
+    <section>
+        <div class="converter">
+            <h1> Ubah Format</h1>
+        </div>    
+        <div class="answer">
+            <input type="text" class="input" onkeyup="" id="inputID">
+        </div>
+        <script src="js/empat.js"></script>
+        </section>
+</body>
+</html>
